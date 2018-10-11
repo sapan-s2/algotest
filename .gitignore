@@ -1,0 +1,111 @@
+# =========================
+# Project files
+# =========================
+cacheBusters.json
+
+# =========================
+# Idea files
+# =========================
+/.idea
+*.iml
+atlassian-ide-plugin.xml
+
+# =========================
+# bower & node & npm
+# =========================
+/bower_components/
+/.bower-cache/
+/.bower-registry/
+/.bower-tmp/
+/node_modules/
+/npm-debug.log
+*.log
+
+
+# =========================
+# documentation
+# =========================
+/docs/api/
+/docs/css/
+/docs/font/
+/docs/js/
+/docs/partials/
+/docs/index.html
+
+# =========================
+# Gulp Build files
+# =========================
+/build/
+/public/
+/dist/src/main/webapp/data/
+/dist/src/main/webapp/fonts/
+/dist/src/main/webapp/images/
+/dist/src/main/webapp/scripts/
+/dist/src/main/webapp/styles/
+/dist/src/main/webapp/templates/
+/dist/src/main/webapp/index.html
+/dist/target
+!/dist/src/main/webapp/jsp
+!/dist/src/main/webapp/WEB-INF
+!/dist/src/main/webapp/META-INF
+/reports/
+/e2e/reports/
+/docs/partials/
+/docs/js/
+/docs/css/
+/docs/font/
+/reports/
+/src/common/utilities/constants/built/
+
+# =========================
+# sublime text
+# =========================
+*.sublime*
+
+# =========================
+# test results
+# =========================
+test-results.xml
+
+# =========================
+# jar files
+# =========================
+/target
+/wrapper
+
+# =========================
+# Windows detritus
+# =========================
+Thumbs.db
+ehthumbs.db
+
+# =========================
+# Folder config file
+# =========================
+Desktop.ini
+
+# =========================
+# Recycle Bin used on file shares
+# =========================
+$RECYCLE.BIN/
+
+# =========================
+# Mac crap
+# =========================
+.DS_Store
+
+# =========================
+# Emacs backup files
+# =========================
+*-
+
+# =========================
+# Generated [NG]Documentation
+# =========================
+/docs/ngDocs
+
+# ==========================
+# Logs
+# ==========================
+/servers/logs/
+
