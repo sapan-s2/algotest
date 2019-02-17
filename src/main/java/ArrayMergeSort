@@ -1,0 +1,57 @@
+package com.sapan.algos;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+/**
+ * Created by sjain on 2/17/19.
+ */
+public class MergeArray {
+
+    public static List<Integer> mergeArrays(List<Integer> arr1, List<Integer> arr2) {
+        List<Integer> arr3 = new ArrayList<>();
+        arr3.addAll(arr1);
+        arr3.addAll(arr2);
+        
+        Collections.sort(arr3, (a, b) -> a.compareTo(b));
+        return arr3;
+    }
+
+
+    public static void main (String[] args)
+    {
+//        Integer[] arr1 = {2, 4,5, 9, 9};
+//        int n1 = arr1.length;
+
+//        Integer[] arr2 = {0, 1, 2, 3,4};
+//        Integer n2 = arr2.length;
+
+//        int[] arr3 = new int[n1+n2];
+
+        List<Integer> arr1 = new ArrayList<>();
+        arr1.add(2);
+        arr1.add(4);
+        arr1.add(5);
+        arr1.add(9);
+        arr1.add(9);
+
+        List<Integer> arr2 = new ArrayList<>();
+        arr1.add(0);
+        arr1.add(1);
+        arr1.add(2);
+        arr1.add(3);
+        arr1.add(4);
+
+        List<Integer> integers = mergeArrays(arr1, arr2);
+
+
+        System.out.println(integers);
+
+
+//        System.out.println("Array after merging");
+//        for (int i=0; i < n1+n2; i++)
+//            System.out.print(arr3[i] + " ");
+    }
+
+}
